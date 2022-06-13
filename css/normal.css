@@ -1,0 +1,20 @@
+#menu ul li:hover{
+  background: #649c9e;
+}
+
+.adoptar{
+  background: #649c9e;
+}
+
+button{
+  background: #649c9e;
+}
+
+form input[type="submit"]{
+	background: #649c9e;
+	border: 1px solid #649c9e;
+}
+
+footer{
+	background: #649c9e;
+}

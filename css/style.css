@@ -1,0 +1,221 @@
+body{
+  background: url(../img/fondo.jpg);
+  background-size: 100% 100%;
+}
+
+#cambioColores{
+  width: 35px;
+  height: 100px;
+  background: #649c9e;
+  position: fixed;
+  top:40%;
+}
+
+#to-green,
+#to-normal,
+#to-blue{
+	width: 25px;
+	height: 25px;
+	display: block;
+	margin: 0px auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+  border: 1px solid white;
+}
+
+#to-blue{
+  background: #2A4EF0;
+}
+
+#to-normal{
+  background: pink;
+}
+
+#to-green{
+  background: #339900;
+}
+
+#global{
+  width: 65%;
+  background: white;
+  opacity: 0.9;
+  margin: auto;
+  padding: 10px;
+}
+
+.patita{
+  width: 10%;
+  height: 70px;
+  float: left;
+  background: url(../img/patita.png);
+  background-size: 100% 100%;
+}
+
+#logo{
+  width: 25%;
+  height: 70px;
+  border: 1px solid black;
+  float: left;
+  margin: 0px 27.15% 0px 27.15%;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+#menu{
+	font-family: Helvetica, Arial;
+	width: 100%;
+	margin-bottom: 20px;
+  background: pink;
+}
+
+#menu ul{
+	line-height: 46px;
+	list-style: none;
+}
+
+#menu ul li{
+	height: 46px;
+	display: inline-block;
+  transition: all 30ms;
+}
+
+#menu ul li:hover{
+  background: #649c9e;
+}
+
+#menu a{
+	display: block;
+	color:white;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.separador{
+  width: 100%;
+  height: 75px;
+  background: url(../img/separador.png);
+  background-size: 100% 100%;
+}
+
+#slider{
+  width: 100%;
+  height: 440px;
+}
+
+.bx-wrapper, .bx-viewport{
+  height: 400px !important;
+}
+
+#ContenedorDeAdopcion{
+  width: 60%;
+  float: left;
+}
+
+#login{
+  width: 30%;
+  float: right;
+  padding: 20px;
+}
+
+
+.adoptar{
+  font-size: 14px;
+	text-align: center;
+	display: block;
+	padding: 15px;
+	color: Black;
+	text-decoration: none;
+	margin-top: 10px;
+	width: 70px;
+	margin-bottom: 20px;
+  background: #649c9e;
+  border-radius: 5px;
+}
+
+h3 , p{
+  margin: 0px;
+  font-size: 13px;
+}
+
+#porqueAdoptar, #zonaBotones{
+  width: 47%;
+  height: 200px;
+  text-align: center;
+  float: left;
+}
+
+#zonaBotones{
+  margin-top: 60px;
+  padding-left: 10px;
+}
+
+button{
+  width: 70px;
+  height: 50px;
+  background: #649c9e;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  border: 0px;
+  margin: 7px ;
+  cursor: pointer;
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="number"],
+select{
+	padding: 5px;
+	border-radius: 2px;
+	border:1px solid #ccc;
+	width: 80%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+form input[type="submit"]{
+	background: #649c9e;
+	padding: 10px;
+	border: 1px solid #649c9e;
+	color: #333;
+	cursor: pointer;
+}
+
+footer{
+  font-family: Helvetica, Arial;
+	color:white;
+	height: 47px;
+	background: #649c9e;
+	margin:0px auto;
+	width: 63.8%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 40px;
+	line-height: 47px;
+}
+
+footer a{
+  color:white;
+  float: right;
+  text-decoration: none;
+}
+
+#a{
+  color:blue;
+  float: right;
+  text-decoration: none;
+}
+
+#box{
+  float: left;
+  width: 60%;
+}
+
+h5{
+  font-size: 20px;
+}

@@ -1,0 +1,29 @@
+body{
+  background: url(../img/verder.jpg);
+  background-size: 100% 100%;
+}
+
+#menu ul li:hover{
+  background: #339900;
+}
+
+#menu{
+  background: #339900;
+}
+
+.adoptar{
+  background: #99FF33
+}
+
+button{
+  background: #99FF33;
+}
+
+form input[type="submit"]{
+	background: #99FF33;
+	border: 1px solid ##99FF33;
+}
+
+footer{
+	background: #99FF33;
+}
